@@ -1,12 +1,14 @@
 # MLT-UFO-Information-Security-Incident
 Information Security Incident domain
+
+
 Considering a computational environment, a number of devices, such as computers, network equipment, software, data, among others are 
 utilized for various purposes. Therefore, the operation of these information assets involves numerous events. In this context, an event 
 is a sequence of directed actions with specific purposes as a consequence of  a change in the state of an information asset. Whenever 
 the actions have the intention of resulting in something that is not allowed to happen, an attack is set up.
-	The occurrence of an attack involves a participation of an attacker. An attacker employs a tool malicious to explore an information 
-asset vulnerability and performs an action to obtain an unauthorized result [29]. Often, a succession of attacks occur by the same 
-attacker to cause damage. These attacks are part of an incident. In this way, an incident is a group of attacks that can be distinguished 
+
+
+	The occurrence of an attack involves a participation of an attacker. An attacker employs a tool malicious to explore an information asset vulnerability and performs an action to obtain an unauthorized result [29]. Often, a succession of attacks occur by the same attacker to cause damage. These attacks are part of an incident. In this way, an incident is a group of attacks that can be distinguished 
 from others considering the attackers, attacks and damages involved. An incident can be understood as a simple attack or a set of attacks. 
 Figure 1 shows an Incident model using the UFO taxonomy.
 	As shown in Figure 1, an "Incident" is an instance of "Complex Event" because it consists of one or more "Attack" ("Atomic Event") that
