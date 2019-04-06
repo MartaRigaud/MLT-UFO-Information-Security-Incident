@@ -32,11 +32,11 @@ kinds "Process", "Account", "Data", "Component", "Computer", "Network" and "Inte
 
 Similarly, the "Tool" utilized by "Attacker" can be represented. The "Tool" is instance of "Category" partitioned by second-order 
 type "Tool Kind" that specializes "Kind". In this context, "Physical Attack", "Information Exchange", "User Command", "Script or 
-Program" and "ToolKit" are instances of kinds illustrated in Figure 2 exemplify the types of tools.
+Program" and "ToolKit" are instances of kinds illustrated in Figure 3 exemplify the types of tools.
 
 
 The situations that make possible attack occurrence and the ones which follow the attack can be detailed. Furthermore, a series of 
-unauthorized situations caused by attacks can lead to various types of damage. Figure 3 illustrates the types of situations that lead 
+unauthorized situations caused by attacks can lead to various types of damage. Figure 4 illustrates the types of situations that lead 
 an "Information asset": (i) to become vulnerable; (ii) to generate an unauthorized result; and (iii) to be damaged. "Vulnerable", 
 "Unauthorized Result" and "Damage" specialize "Individual" and are instances of "Situation", being classified as first-order type 
 entities. The second-order type "Vulnerable Type" specializes "Situation" and may thus categorizes an instance of "Vulnerable" 
@@ -48,7 +48,7 @@ information", "Denial of service" and "Theft of resources." Finally, "Damage Typ
 and categorizes instances of "Situation" using damage qualities as classification criteria.
 
 
-Attackers are categorized according to the objectives employed in an incident. As shown in Figure 4, it was defined as a second-order 
+Attackers are categorized according to the objectives employed in an incident. As shown in Figure 5, it was defined as a second-order 
 type "Person Role" that categorizes "Person" according to role that a person may play during an "Attack" having as instances "Attacker".
 More specific specializations of "Person Role" include "Attacker Role" whose instances specialize "Attacker". Types such as "Corporate 
 Raider", "Hacker", "Spy" and "Professional Criminal" which are examples of instances of "Attacker Role".	
@@ -57,7 +57,7 @@ Raider", "Hacker", "Spy" and "Professional Criminal" which are examples of insta
 Attacks, according to [29], can be categorized into "Stealing passwords", "Social Engineering", "Bugs and Backdoors", "Authentication 
 Failures", "Protocol Failures", "Information Leakage" and "Denial of Service" (DoS). Being "Attack" an instance of the base type 
 "Atomic Event", it is also a first-order type. "Attack Type" are specialized instances of "Atomic Event" and  categorizes "Attack". 
-These examples of second-order types specializing "Attack" are illustrated in Figure 5.
+These examples of second-order types specializing "Attack" are illustrated in Figure 6.
 
 
 Attack types can be specialized in types to be represented in more detail by increasing the expressiveness of the model. For example, 
@@ -67,7 +67,7 @@ resources and rendering it unavailable to legitimate users [23].
 
 
 Thus, the DDoS attack has several sorting criteria. The mechanism used to attack was utilized by [23] to establish eight DDoS attack 
-classification criteria. Figure 10 shows the representation of three of these classes using MLT.
+classification criteria. Figure 7 shows the representation of three of these classes using MLT.
 
 
 Attacks are classified according to the attack method (for example, "DoS") giving rise to types of attacks. Therefore, "Attack Type" 
@@ -82,7 +82,7 @@ Descending in the classification hierarchy of the DDoS attack, it becomes possib
 an attack by the possibility of characterization. A DDoS attack is characterized when it is possible to identify its occurrence by 
 inspecting the packet headers. Consequently, the attack that can not be identified by inspection of the packet headers is 
 non-characterizable. In addition, the characterizable DDoS attack may be filterable or non-filterable. The DDoS filterable attack uses 
-malformed packets or packets that are not required for the normal operation of the information asset [23]. Figure 7 details this 
+malformed packets or packets that are not required for the normal operation of the information asset [23]. Figure 8 details this 
 classification structure.
 
 
