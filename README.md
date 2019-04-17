@@ -28,6 +28,5 @@ Some of these entities of the Information Security Incident ontology were classi
 - DDoS Attack (Figure 8  - MLT Type DDoS Attack): illustrates types of DDoS attacks.
 
 
-
-- Iranian incident (Figure 9  - UFO-MLT Iranian incident): scenario application of sCuDO.
+Finally, to demonstrate the applicability of the sCuDO, the historica security incident which had taken place in Iran was modeled (Figure 9  - UFO-MLT Iranian incident).
 
